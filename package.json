@@ -1,5 +1,5 @@
 {
-  "name": "dkt-db",
+  "name": "dkt-back",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -23,10 +23,10 @@
     "strapi-utils": "3.1.4"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Sazaam"
   },
   "strapi": {
-    "uuid": "c86f06a3-6cad-4b29-91ce-8e20b9e26828"
+    "uuid": false
   },
   "engines": {
     "node": ">=10.0.0",

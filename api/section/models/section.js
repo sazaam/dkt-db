@@ -5,4 +5,19 @@
  * to customize this model
  */
 
-module.exports = {};
+module.exports = {
+  lifecycles: {
+    // Called before an entry is created
+    async beforeCreate(data) {
+      
+      await strapi.services.section.setLevel(data) ;
+      
+    },
+    // Called before an entry is updated
+    async beforeUpdate(params, data) {
+      
+      await strapi.services.section.setLevel(data) ;
+      
+    }
+  },
+};

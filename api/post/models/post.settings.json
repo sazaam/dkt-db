@@ -12,11 +12,26 @@
     "name": {
       "type": "string"
     },
-    "tpl": {
-      "type": "richtext"
-    },
     "vars": {
       "type": "json"
+    },
+    "bracket": {
+      "type": "dynamiczone",
+      "components": [
+        "single-blocs.patchwork",
+        "single-blocs.slideshow",
+        "single-blocs.credits",
+        "modular.article",
+        "modular.media"
+      ]
+    },
+    "template": {
+      "model": "template",
+      "via": "posts"
+    },
+    "sections": {
+      "collection": "section",
+      "via": "post"
     }
   }
 }

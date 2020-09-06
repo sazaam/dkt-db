@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_single_blocs_credits",
+  "info": {
+    "name": "credits",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "template": {
+      "model": "template"
+    }
+  }
+}

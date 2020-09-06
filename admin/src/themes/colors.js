@@ -24,9 +24,9 @@ const colors = {
   grey: '#9ea7b8',
   greyDark: '#292b2c',
   greyAlpha: 'rgba(227, 233, 243, 0.5)',
-  lightBlue: '#E6F0FB',
-  mediumBlue: '#007eff',
-  darkBlue: '#AED4FB',
+  lightBlue: '#ede6e4',
+  mediumBlue: '#9d1639',
+  darkBlue: '#fbc3ae',
   content: {
     background: '#fafafb',
     'background-alpha': 'rgba(14, 22, 34, 0.02)',
