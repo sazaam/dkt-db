@@ -11,6 +11,11 @@
     },
     "template": {
       "model": "template"
+    },
+    "page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "jade.jade-page"
     }
   }
 }

@@ -12,11 +12,11 @@
     "name": {
       "type": "string"
     },
-    "path": {
-      "type": "string"
-    },
     "jade": {
       "type": "richtext"
+    },
+    "path": {
+      "type": "string"
     },
     "posts": {
       "via": "template",

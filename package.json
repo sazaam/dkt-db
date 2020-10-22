@@ -1,5 +1,5 @@
 {
-  "name": "dkt-back",
+  "name": "dkt-backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "graphql": "^15.3.0",
     "strapi": "3.1.4",
     "strapi-admin": "3.1.4",
     "strapi-connector-mongoose": "3.1.4",
@@ -20,14 +21,13 @@
     "strapi-plugin-graphql": "3.1.4",
     "strapi-plugin-upload": "3.1.4",
     "strapi-plugin-users-permissions": "3.1.4",
-    "strapi-provider-upload-aws-s3": "^3.1.0-beta.0",
     "strapi-utils": "3.1.4"
   },
   "author": {
-    "name": "Sazaam"
+    "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": false
+    "uuid": "585fd260-c0a5-47c3-9f3e-696689ee79b9"
   },
   "engines": {
     "node": ">=10.0.0",

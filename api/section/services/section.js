@@ -7,12 +7,22 @@
 
 module.exports = {
   async setLevel (data) {
-      if(!data.parent){
-        data.level = 1 ;
-      }else{
-        let ss = await strapi.api.section.services.section.findOne({id:data.parent}) ;
-        data.level = ss.level + 1 ;
-      }
+    if(!data.parent){
+      data.level = 1 ;
+    }else{
+      let ss = await strapi.api.section.services.section.findOne({id:data.parent}) ;
+      data.level = ss.level + 1 ;
+    }
+    return data ;
+  },
+  async setPath (data) {
+    if(!data.parent){
+      data.path = '/' + data.name + '/' ;
+    }else{
+      let ss = await strapi.api.section.services.section.findOne({id:data.parent}) ;
+      data.path = ss.path + data.name + '/' ;
+    }
     return data ;
   }
 }
+

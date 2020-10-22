@@ -12,22 +12,23 @@
     "name": {
       "type": "string"
     },
+    "template": {
+      "model": "template",
+      "via": "posts"
+    },
     "vars": {
       "type": "json"
     },
     "bracket": {
       "type": "dynamiczone",
       "components": [
-        "single-blocs.patchwork",
-        "single-blocs.slideshow",
-        "single-blocs.credits",
+        "jade.jade-page",
         "modular.article",
-        "modular.media"
+        "modular.media",
+        "single-blocs.slideshow",
+        "single-blocs.patchwork",
+        "single-blocs.credits"
       ]
-    },
-    "template": {
-      "model": "template",
-      "via": "posts"
     },
     "sections": {
       "collection": "section",

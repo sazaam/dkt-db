@@ -13,24 +13,25 @@
       "type": "string"
     },
     "position": {
-      "type": "integer",
-      "required": true,
-      "min": 1
+      "type": "integer"
+    },
+    "path": {
+      "type": "string"
     },
     "level": {
       "type": "integer"
     },
-    "children": {
-      "collection": "section",
-      "via": "parent"
+    "post": {
+      "via": "sections",
+      "model": "post"
     },
     "parent": {
       "model": "section",
       "via": "children"
     },
-    "post": {
-      "via": "sections",
-      "model": "post"
+    "children": {
+      "collection": "section",
+      "via": "parent"
     }
   }
 }
