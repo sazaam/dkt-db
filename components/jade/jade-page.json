@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_jade_jade_pages",
+  "info": {
+    "name": "page",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "jade": {
+      "type": "richtext"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

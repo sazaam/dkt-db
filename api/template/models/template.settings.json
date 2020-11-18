@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "templates",
+  "info": {
+    "name": "template"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "jade": {
+      "type": "richtext"
+    },
+    "path": {
+      "type": "string"
+    },
+    "posts": {
+      "via": "template",
+      "collection": "post"
+    }
+  }
+}

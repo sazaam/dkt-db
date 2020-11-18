@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_modular_article_articles",
+  "info": {
+    "name": "article",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "template": {
+      "model": "template"
+    },
+    "page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "jade.jade-page"
+    }
+  }
+}
