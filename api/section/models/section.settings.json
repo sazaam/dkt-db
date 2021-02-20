@@ -22,8 +22,8 @@
       "type": "integer"
     },
     "post": {
-      "via": "sections",
-      "model": "post"
+      "model": "post",
+      "via": "sections"
     },
     "parent": {
       "model": "section",
@@ -32,6 +32,10 @@
     "children": {
       "collection": "section",
       "via": "parent"
+    },
+    "category": {
+      "model": "category",
+      "via": "sections"
     }
   }
 }

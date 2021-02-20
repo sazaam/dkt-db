@@ -31,8 +31,8 @@
       ]
     },
     "sections": {
-      "collection": "section",
-      "via": "post"
+      "via": "post",
+      "collection": "section"
     }
   }
 }
